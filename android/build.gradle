@@ -41,6 +41,6 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.surveymonkey:surveymonkey-android-sdk:2.0.0'
+    implementation files("$rootDir/../node_modules/react-native-survey-monkey/android/surveymonkey_android_sdk.aar")
 }
   
